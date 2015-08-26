@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <style name="chart_style">
+        <item name="android:layout_width">@dimen/chart_size</item>
+        <item name="android:layout_height">@dimen/chart_size</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.FitChart.Sample", "XamDroid.FitChart.Sample.csproj", "{525009F1-4732-4DDF-B412-3C8236DCC66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.FitChart.Sample.UITests", "XamDroid.FitChart.Sample.UITests\XamDroid.FitChart.Sample.UITests.csproj", "{F7A3D614-AE65-4161-992D-E44C0FBF0B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamDroid.FitChart", "..\..\Library\XamDroid.FitChart\XamDroid.FitChart.csproj", "{939A3235-37D8-4F70-9CF5-EAF8871B2A45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{525009F1-4732-4DDF-B412-3C8236DCC66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525009F1-4732-4DDF-B412-3C8236DCC66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525009F1-4732-4DDF-B412-3C8236DCC66D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{525009F1-4732-4DDF-B412-3C8236DCC66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525009F1-4732-4DDF-B412-3C8236DCC66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A3D614-AE65-4161-992D-E44C0FBF0B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A3D614-AE65-4161-992D-E44C0FBF0B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A3D614-AE65-4161-992D-E44C0FBF0B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A3D614-AE65-4161-992D-E44C0FBF0B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939A3235-37D8-4F70-9CF5-EAF8871B2A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939A3235-37D8-4F70-9CF5-EAF8871B2A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939A3235-37D8-4F70-9CF5-EAF8871B2A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939A3235-37D8-4F70-9CF5-EAF8871B2A45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
