@@ -252,7 +252,8 @@ namespace com.frankcalise.widgets
 			if (!IsInEditMode)
 			{
 				var valuesCounter = chartValues.Count - 1;
-				for (var index = valuesCounter; index >= 0; index--) {
+				for (var index = valuesCounter; index >= 0; index--) 
+				{
 					RenderValue (canvas, chartValues [index]);
 				}
 			}
@@ -270,7 +271,8 @@ namespace com.frankcalise.widgets
 				var renderer = RendererFactory.Renderer (AnimationMode, value, drawingArea);
 				var path = renderer.BuildPath (animationProgress, animationSeek);
 
-				if (path != null) {
+				if (path != null) 
+				{
 					canvas.DrawPath (path, value.Paint);
 				}
 			}
