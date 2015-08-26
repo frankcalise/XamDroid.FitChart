@@ -32,7 +32,7 @@ Adding a FitChart view by inserting it into your axml layout file
 ```
 
 Now in your activities `onCreate()` or your fragments `onCreateView()` you would want to do something like this
-```
+```C#
 var fitChart = FindViewById<com.frankcalise.widgets.FitChart> (Resource.Id.FitChart);
 fitChart.MinValue = 0f;
 fitChart.MaxValue = 100f;
