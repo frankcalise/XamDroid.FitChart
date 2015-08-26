@@ -1,11 +1,11 @@
 
-XamDroid.StickyListHeaders
+XamDroid.FitChart
 ================
 
 Ported and Maintained by:
 Frank Calise ([@frankcalise](http://www.twitter.com/frankcalise))
 
-Original StickyListHeaders by:
+Original FitChart by:
 ([Txus Ballesteros on GitHub](https://github.com/txusballesteros/fit-chart))
 
 FitChart is an Android library that helps create a View similar to Google's Fit application to display a wheel chart.
