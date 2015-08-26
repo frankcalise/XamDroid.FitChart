@@ -22,13 +22,13 @@ Clone and add project or dll to your solution.
 ###Code
 Adding a FitChart view by inserting it into your axml layout file
 ```xml
-        <com.frankcalise.widgets.FitChart
-            style="@style/chart_style"
-            android:layout_gravity="center"
-            app:animationMode="overdraw"
-            app:valueStrokeColor="#ff3d00"
-            app:backStrokeColor="#f0f0f0"
-            android:id="@+id/FitChart" />
+<com.frankcalise.widgets.FitChart
+    style="@style/chart_style"
+    android:layout_gravity="center"
+    app:animationMode="overdraw"
+    app:valueStrokeColor="#ff3d00"
+    app:backStrokeColor="#f0f0f0"
+    android:id="@+id/FitChart" />
 ```
 
 Now in your activities `onCreate()` or your fragments `onCreateView()` you would want to do something like this
