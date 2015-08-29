@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>XamDroid.FitChart</id>
+       <version>1.0.0</version>
+       <title>FitChart Control for Xamarin.Android</title>
+       <authors>Frank Calise</authors>
+       <owners>Frank Calise</owners>
+       <licenseUrl>https://github.com/frankcalise/XamDroid.FitChart</licenseUrl>
+       <projectUrl>https://github.com/frankcalise/XamDroid.FitChart</projectUrl>
+     
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         A Google Fit like chart to include in your Android applications.
+
+         See the GitHub page for additional details and sample code.
+       </description>
+       <summary>A Google Fit like chart to include in your Android applications</summary>
+       <tags>xamarin, fit, chart, googlefit, fitchart, android, xamarin.android</tags>
+       <dependencies>
+       </dependencies>
+       <frameworkAssemblies>
+        <frameworkAssembly assemblyName="Mono.Android.Export" targetFramework="MonoAndroid" />
+       </frameworkAssemblies>
+   </metadata>
+   <files>
+     <!--Xamarin.Android-->
+     <file src="bin\Release\XamDroid.FitChart.dll" target="lib\MonoAndroid10\XamDroid.FitChart.dll" />
+   </files>
+</package>
