@@ -29,12 +29,15 @@ namespace com.frankcalise.widgets
 
 		private float CalculateSweepAngle(float animationSeek, FitChartValue value)
 		{
-			var result = value.SweepAngle;
+			float result;
 			var totalSizeOfValue = value.StartAngle + value.SweepAngle;
 
-			if (totalSizeOfValue > animationSeek)
+			if (totalSizeOfValue > animationSeek) {
+				result = animationSeek - value.StartAngle;
+			}
+			else 
 			{
-				result = animationSeek + value.StartAngle;
+				result = value.SweepAngle;
 			}
 
 			return result;	
